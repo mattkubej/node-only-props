@@ -1,0 +1,22 @@
+{
+  "name": "node-only-props",
+  "version": "1.0.0",
+  "description": "return whitelisted properties of an object",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": ["utility", "util", "object", "whitelist"],
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "14.0.5",
+    "ts-node": "8.10.1",
+    "typescript": "3.9.3"
+  },
+  "devDependencies": {
+    "@types/jest": "25.2.3",
+    "jest": "26.0.1",
+    "ts-jest": "26.0.0"
+  }
+}
